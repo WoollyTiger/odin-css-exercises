@@ -1,0 +1,11 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+div {
+  background-color: red;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
