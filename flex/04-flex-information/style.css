@@ -7,11 +7,33 @@ img {
   height: 100px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
+.items {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.berry-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
